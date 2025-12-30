@@ -1,0 +1,241 @@
+*{
+    box-sizing:border-box;
+    font-family:"Segoe UI", Tahoma, sans-serif;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+    background:radial-gradient(circle at top,#1a1a1a,#000000);
+    color:#f5f5f5;
+}
+
+/* LAYOUT */
+.wrapper{
+    display:flex;
+    padding:22px;
+    gap:22px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:260px;
+    background:linear-gradient(180deg,#141414,#1f1f1f);
+    border-radius:22px;
+    padding:22px;
+    box-shadow:0 15px 40px rgba(0,0,0,.8);
+}
+
+.sidebar h2{
+    margin:0;
+    font-size:19px;
+    font-weight:700;
+    color:#facc15;
+}
+
+.sidebar small{
+    color:#cbd5e1;
+}
+
+.menu{
+    margin-top:28px;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:13px 16px;
+    margin-bottom:12px;
+    border-radius:14px;
+    color:#e5e7eb;
+    text-decoration:none;
+    font-weight:600;
+    transition:.25s;
+}
+
+.menu a:hover,
+.menu a.active{
+    background:linear-gradient(135deg,#7f1d1d,#991b1b);
+    color:#ffffff;
+}
+
+/* CONTENT */
+.content{
+    flex:1;
+}
+
+/* TOP BAR */
+.topbar{
+    background:linear-gradient(135deg,#141414,#1f1f1f);
+    padding:22px;
+    border-radius:22px;
+    box-shadow:0 15px 40px rgba(0,0,0,.8);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:22px;
+}
+
+.topbar h1{
+    margin:0;
+    font-size:23px;
+    color:#facc15;
+}
+
+.topbar p{
+    margin:6px 0 0;
+    color:#cbd5e1;
+    font-size:14px;
+}
+
+/* BUTTON */
+.btn{
+    background:linear-gradient(135deg,#7f1d1d,#991b1b);
+    color:white;
+    border:none;
+    padding:11px 20px;
+    border-radius:999px;
+    cursor:pointer;
+    font-weight:600;
+    text-decoration:none;
+    transition:.25s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(153,27,27,.5);
+}
+
+.btn-warning{
+    background:linear-gradient(135deg,#facc15,#eab308);
+    color:#1c1917;
+}
+
+.btn-danger{
+    background:linear-gradient(135deg,#000000,#1f1f1f);
+}
+
+/* CARD */
+.card{
+    background:linear-gradient(135deg,#424242,#1e1d1d);
+    color:#1c1917;
+    border-radius:22px;
+    padding:22px;
+    box-shadow:0 15px 40px rgba(0,0,0,.8);
+    margin-bottom:22px;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:16px;
+}
+
+th{
+    background:#2f2f2f;
+    color:#fff;
+    font-weight:600;
+}
+
+th,td{
+    padding:13px;
+    text-align:center;
+}
+
+td{
+    color:#ffffff;
+}
+
+tr:nth-child(even){
+    background:#323232;
+}
+
+
+/* TABLE BUTTON */
+.table-btn{
+    padding:7px 14px;
+    border-radius:999px;
+    font-size:13px;
+    font-weight:600;
+    text-decoration:none;
+    color:white;
+    background:linear-gradient(135deg,#15803d,#166534);
+}
+
+.table-btn.done{
+    background:linear-gradient(135deg,#7f1d1d,#991b1b);
+}
+
+/* CENTER PAGE */
+.page-center{
+    min-height: calc(100vh - 80px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* FORM CARD */
+.form-box{
+    width:100%;
+    max-width:440px;
+    background:linear-gradient(135deg,#faf5ef,#f3e8dd);
+    color:#1c1917;
+    padding:34px;
+    border-radius:26px;
+    box-shadow:0 25px 60px rgba(0,0,0,.85);
+}
+
+/* TITLE */
+.form-box h2{
+    text-align:center;
+    margin-bottom:26px;
+    font-size:23px;
+    color:#7f1d1d;
+}
+
+/* INPUT */
+.form-group{
+    margin-bottom:20px;
+}
+
+.form-group label{
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:7px;
+    display:block;
+    color:#3f2d20;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:13px 15px;
+    border-radius:16px;
+    border:1px solid #3a3939;
+    font-size:14px;
+    background:#303030;
+}
+
+.form-group input:focus,
+.form-group select:focus{
+    border-color:#7f1d1d;
+    outline:none;
+    box-shadow:0 0 0 3px rgba(127,29,29,.25);
+}
+
+/* FORM BUTTON */
+.form-actions{
+    display:flex;
+    gap:14px;
+    margin-top:26px;
+}
+
+.form-actions .btn{
+    flex:1;
+    padding:13px;
+    font-size:14px;
+    border-radius:999px;
+}

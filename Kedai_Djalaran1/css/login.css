@@ -1,0 +1,96 @@
+:root {
+  --putih: #fdfff5;
+  --hitam: #010101;
+  --merah: #d30000;
+  --cream: #c7a07a;
+  --grey: #262626;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey);
+}
+
+/* CARD LOGIN */
+.box {
+  width: 360px;
+  padding: 35px 30px;
+  background-color: rgba(1, 1, 3, 0.5);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* JUDUL */
+.box h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.box p {
+  margin: 8px 0 25px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+/* LABEL */
+label {
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 999px;
+  background: #ffd36a;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background: #ffcb4a;
+  transform: translateY(-1px);
+}
+
+/* ERROR */
+.error {
+  background: rgba(255, 0, 0, 0.2);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
