@@ -1,17 +1,17 @@
-# 📘 Sistem Informasi Kasir Sederhana
+#  Sistem Informasi Kasir Sederhana
 
 Proyek ini dibuat sebagai **tugas kuliah/sekolah** yang bertujuan untuk menerapkan konsep dasar **pemrograman web**, **manajemen database**, dan **autentikasi pengguna** menggunakan **PHP & MySQL**.
 
 ---
 
-## 🧾 Deskripsi Proyek
+##  Deskripsi Proyek
 
 Aplikasi **Sistem Informasi Kasir** ini digunakan untuk membantu proses pengelolaan transaksi penjualan, data karyawan, 
 Aplikasi memiliki fitur **login**, **hak akses pengguna**, serta **CRUD data**.
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 - 🔐 Login & Logout
 - 👤 Manajemen pengguna (Admin & Karyawan)
@@ -25,6 +25,6 @@ orang yang terlibat
 - yofan
 - fahmi
 
-Untuk webnya bisa diakses di sini
-kasir ## https://kasridjalaran.gt.tc
-kedai ## https://kedaidjalaran.gt.tc
+## Untuk webnya bisa diakses di sini
+- [Demo kasir] https://kasridjalaran.gt.tc
+- [Demo kedai]  https://kedaidjalaran.gt.tc
