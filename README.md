@@ -21,6 +21,10 @@ Aplikasi memiliki fitur **login**, **hak akses pengguna**, serta **CRUD data**.
 ---
 
 orang yang terlibat
-Asykaril
-yofan
-fahmi
+- Asykaril
+- yofan
+- fahmi
+
+Untuk webnya bisa diakses di sini
+kasir ## https://kasridjalaran.gt.tc
+kedai ## https://kedaidjalaran.gt.tc
